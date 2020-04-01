@@ -1,0 +1,50 @@
+// Defining my own variables and redefining variables Bootstrap 4
+
+// Connecting fonts
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/MontserratRegular/Montserrat-Regular.eot');
+	src: url('../fonts/Montserrat/MontserratRegular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/MontserratRegular/Montserrat-Regular.woff2') format('woff2'),
+		url('../fonts/Montserrat/MontserratRegular/Montserrat-Regular.woff') format('woff'),
+		url('../fonts/Montserrat/MontserratRegular/Montserrat-Regular.ttf') format('truetype'),
+		url('../fonts/Montserrat/MontserratRegular/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/MontserratBold/Montserrat-Bold.eot');
+	src: url('../fonts/Montserrat/MontserratBold/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/MontserratRBold/Montserrat-Bold.woff2') format('woff2'),
+		url('../fonts/Montserrat/MontserratBold/Montserrat-Bold.woff') format('woff'),
+		url('../fonts/Montserrat/MontserratBold/Montserrat-Bold.ttf') format('truetype'),
+		url('../fonts/Montserrat/MontserratBold/Montserrat-Bold.svg#Montserrat-Regular') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+// Color
+$gray-900: #333 !default;
+$pink: #f76293 !default;
+$bluish-black: #151719 !default;
+
+// Typography
+$font-family-georgia:       Georgia, "Nimbus Sans L", serif !default;
+$font-family-base:        $font-family-georgia !default;
+
+$font-family-montserrat: 'Montserrat', sans-serif !default;
+
+$font-size-base:              1rem !default;
+$h2-font-size:                $font-size-base * 2.5 !default;
+
+// Buttons + Forms
+// $input-btn-padding-y:         .75rem !default;
+// $input-btn-padding-x:         2rem !default;
+// $input-btn-font-size:         $font-size-base * 1.25 !default;
+
+// Buttons
+// $btn-padding-y:               $input-btn-padding-y !default;
+// $btn-padding-x:               $input-btn-padding-x !default;
+// $btn-font-size:               $input-btn-font-size !default;
+
