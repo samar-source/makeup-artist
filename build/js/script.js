@@ -24,7 +24,7 @@ $(document).ready(function() {
 		var target = $(this).attr('href');
 
 		if (target != '#popup-form') {
-			$('html, body').animate({scrollTop: $(target).offset().top-70}, 800);
+			$('html, body').animate({scrollTop: $(target).offset().top-60}, 800);
 		}
 
 		$('.nav-link').css({'color':'#000'});
