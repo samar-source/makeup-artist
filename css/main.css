@@ -4676,25 +4676,23 @@ body {
           left: 0;
           right: 0;
           margin: 0 auto; }
-      body header .menu nav {
-        padding: 2px 0; }
-        @media screen and (max-width: 992px) {
-          body header .menu nav {
-            display: none;
-            padding: 18px 0;
-            border-top: 1px solid #d0d0d0; } }
-        @media screen and (max-width: 992px) {
-          body header .menu nav .nav {
-            display: block;
-            margin: 0 auto; } }
-        body header .menu nav .nav .nav-link {
-          font-family: Georgia, "Nimbus Sans L", serif;
-          font-size: 20px;
-          font-style: italic;
-          font-weight: normal;
-          text-transform: none;
-          color: #333;
-          margin: 10px auto; }
+      @media screen and (max-width: 992px) {
+        body header .menu nav {
+          display: none;
+          padding: 18px 0;
+          border-top: 1px solid #d0d0d0; } }
+      @media screen and (max-width: 992px) {
+        body header .menu nav .nav {
+          display: block;
+          margin: 0 auto; } }
+      body header .menu nav .nav .nav-link {
+        font-family: Georgia, "Nimbus Sans L", serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: normal;
+        text-transform: none;
+        color: #333;
+        margin: 10px auto; }
     body header .header-content {
       background-image: url("../img/header/header-bg.png");
       background-size: cover;
