@@ -244,6 +244,7 @@ img.mfp-img {
 				}
 			}
 			nav {
+				padding: 2px 0;
 				@include media-screen(992px, max-width) {
 					display: none;
 					padding: 18px 0;
@@ -374,6 +375,10 @@ img.mfp-img {
 
 // Prices
 	#prices {
+		@include media-screen(576px, max-width){
+			padding-top: 0px !important;
+			padding-bottom: 0px !important;
+		}
 		.prices-content {
 			@include section(none, auto, 0, $black, no-repeat, auto, auto, 100px, 100px);
 		}
